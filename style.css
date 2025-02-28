@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+
+}
+
+/* Introduction Styles */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.introduction h1 {
+    font-size: 2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.introduction h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.introduction h3 {
+    font-size: 1.2em;
+    color: #777;
+    margin: 10px 0;
+}
+
+.introduction h4 {
+    font-size: 1em;
+    color: #999;
+    margin: 10px 0;
+}
+
+.signup-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid #ddd; /* Add a border */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    transition: transform 0.3s; /* Add a transition for the hover effect */
+}
+
+.signup-image:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+/* Signup Form Styles */
+.signup-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.signup-form h2 {
+    color: #333;
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.gender {
+    grid-column: span 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.gender legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.gender label {
+    margin-right: 10px;
+}
+
+.period-of-study {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="submit"] {
+    grid-column: span 2;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Login Section Styles */
+.login-section {
+    margin-top: 20px;
+}
+
+.login-section a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login-section a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
